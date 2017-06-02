@@ -25,15 +25,15 @@ You will need the following items properly installed on your computer.
 ### Goals
 
 * Allow users to post questions, with:
-  * Teaser, Content, Author, Links
+  * Teaser, Content, User, Links
 * Allow users to post replies, with:
-  * Content, Author, Links
+  * Content, User, Links
 * Homepage has list of questions
   * Links from questions go to individual pages, where users can post replies.
 * Bonus - user model
  * Sign in with Github, allow links from user to their Github account
 * Bonus - up and down voting
-
+* Super-bonus - Tags with many-to-many relationship.
 
 
 ## Further Reading / Useful Links

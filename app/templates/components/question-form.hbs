@@ -1,0 +1,22 @@
+<form>
+  <div class="form-group">
+    <label for="user">User</label>
+    {{input value=user id="user" type="form-control"}}
+  </div>
+
+  <div class="form-group">
+    <label for="teaser">Your question in a sentence</label>
+    {{input value=teaser id="teaser" type="form-control"}}
+  </div>
+
+  <div class="form-group">
+    <label for="body">Full explanation, please!</label>
+    {{textarea value=body id="body" type="form-control"}}
+  </div>
+
+  <div class="form-group">
+    <label for="link">Link to relevant code?</label>
+    {{input value=link id="link" type="form-control"}}
+  </div>
+  <button class="btn btn-primary" {{action 'saveQuestion'}}>Save</button>
+</form>
