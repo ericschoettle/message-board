@@ -9,7 +9,7 @@ export default Ember.Component.extend({
         body: this.get('body'),
         link: this.get('link')
       };
-      this.sendAction('saveEntry', params);
+      this.sendAction('saveQuestion', params);
     }
   }
 });
