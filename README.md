@@ -35,7 +35,11 @@ You will need the following items properly installed on your computer.
 * Bonus - up and down voting
 * Super-bonus - Tags with many-to-many relationship.
 
+## Planning
 
+* Get Bootstrap up and running
+* Make Navbar with links to About, Home, Etc. 
+* Make Navbar with links to 
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)

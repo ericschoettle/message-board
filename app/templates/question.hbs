@@ -1,1 +1,13 @@
-{{outlet}}
+<h3>{{model.teaser}}</h3>
+<h4>By <b>{{model.user}}</b></h4>
+<p>{{model.body}}</p>
+
+{{#each model.answers as |answer|}}
+  {{answer-view answer=answer destroyAnswer="destroyAnswer"}}
+{{/each}}
+
+{{answer-form saveAnswer="saveAnswer" question=model}}
+
+{{!--{{update-question question=model update="update"}}--}}
+
+

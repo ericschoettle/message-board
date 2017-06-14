@@ -4,5 +4,5 @@ export default DS.Model.extend({
   user: DS.attr(),
   body: DS.attr(),
   link: DS.attr(),
-  entry: DS.belongsTo('entry', { async: true})
+  question: DS.belongsTo('question', { async: true})
 });

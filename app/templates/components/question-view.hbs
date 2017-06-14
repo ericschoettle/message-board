@@ -1,4 +1,4 @@
-<h3><b>{{question.teaser}}</b></h3>
-<h4>question.user</h4>
+{{#link-to 'question' question.id}}<h3>{{question.teaser}}</h3>{{/link-to}}
+<h4>By <b>{{question.user}}</b></h4>
 
-{{#link-to 'question' question.id}}See More{{/link-to}}
+
