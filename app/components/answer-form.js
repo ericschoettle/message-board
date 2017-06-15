@@ -10,7 +10,6 @@ export default Ember.Component.extend({
         link: this.get('link'),
         question: this.get('question')
       };
-      debugger
       this.sendAction('saveAnswer', params);
     }
   }

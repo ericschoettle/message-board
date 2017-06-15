@@ -1,0 +1,23 @@
+<h1>Update Question: </h1>
+<form>
+  <div class="form-group">
+    <label for="user">Your name:</label>
+    {{input value=updateUser id="updateUser" class="form-control" placeholder=question.user}}
+  </div>
+
+  <div class="form-group">
+    <label for="teaser">Your question in a sentence:</label>
+    {{input value=updateTeaser id="updateTeaser" class="form-control" placeholder=question.teaser}}
+  </div>
+
+  <div class="form-group">
+    <label for="body">Full explanation, please!</label>
+    {{textarea value=updateBody id="updateBody" class="form-control" placeholder=question.body}}
+  </div>
+
+  <div class="form-group">
+    <label for="link">Link to relevant code? (optional)</label>
+    {{input value=updateLink id="updateLink" class="form-control" placeholder=question.link}}
+  </div>
+  <button class="btn btn-primary" {{action 'updateQuestion'}}>Save</button>
+</form>

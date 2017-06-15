@@ -8,6 +8,8 @@
 
 {{answer-form saveAnswer="saveAnswer" question=model}}
 
-{{!--{{update-question question=model update="update"}}--}}
+{{question-update question=model updateQuestion="updateQuestion"}}
+<br>
+<button class="btn btn-danger" {{action 'destroyQuestion' model}}>Delete Question</button>
 
 
