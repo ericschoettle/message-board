@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    destroyAnswer() {
+    destroyAnswer(answer) {
       this.sendAction('destroyAnswer', answer)
     }
   }
