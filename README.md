@@ -30,8 +30,9 @@ You will need the following items properly installed on your computer.
   * Content, User, Links
 * Homepage has list of questions
   * Links from questions go to individual pages, where users can post replies.
-* Bonus - user model
- * Sign in with Github, allow links from user to their Github account
+* CRUD for questions on dynamically generated questions page and index
+* CR_D for answers on questions page and in answers-view component. 
+
 * Bonus - up and down voting
 * Super-bonus - Tags with many-to-many relationship.
 
